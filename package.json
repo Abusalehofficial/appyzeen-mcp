@@ -1,0 +1,44 @@
+{
+  "name": "appyzeen-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for building and signing Android APK and AAB files. Point Claude, Cursor or Cline at an Android, Flutter or React Native project and get a signed release build back.",
+  "bin": {
+    "appyzeen-mcp": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "android",
+    "apk",
+    "aab",
+    "gradle",
+    "flutter",
+    "react-native",
+    "code-signing",
+    "claude",
+    "cursor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abusalehofficial/appyzeen-mcp.git"
+  },
+  "homepage": "https://appyzeen.com",
+  "bugs": {
+    "url": "https://github.com/Abusalehofficial/appyzeen-mcp/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
